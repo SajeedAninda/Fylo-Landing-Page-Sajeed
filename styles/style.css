@@ -108,7 +108,7 @@
     height: 85vh;
     background-color: hsl(240, 75%, 98%);
     display: flex;
-    padding: 0px 60px 0px 60px;
+    padding: 20px 60px 0px 60px;
 }
 
 .productive-infos-text h2 {
@@ -140,6 +140,7 @@
     padding: 40px 20px;
     box-shadow: 5px 5px 10px rgb(219, 216, 216);
     border-radius: 5px;
+    background-color: white;
 }
 
 .author {
@@ -152,7 +153,51 @@
     width: 35px;
     border-radius: 50%;
 }
-
 .productive-image img {
     width: 550px;
+}
+
+/* EARLY ACCESS SECTION  */
+.early-access-container{
+    height: 35vh;
+    background-color: hsl(238, 22%, 44%);
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.early-access h2{
+    color: white;
+    margin-bottom: 10px;    
+}
+.early-access p{
+    color: hsl(0, 0%, 75%);
+}
+.early-access-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.early-access-inputs input {
+    padding: 10px 90px 10px 15px;
+    width: 70%;
+}
+
+.early-access-inputs::placeholder {
+    opacity: 0.5;
+}
+
+.early-access-inputs button {
+    padding: 12px 30px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    width: 40%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.early-access-inputs button:hover {
+    background-color: hsl(240, 78%, 69%);
 }
